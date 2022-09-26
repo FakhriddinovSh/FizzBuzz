@@ -8,21 +8,21 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 </head>
 <body>
-    
     <div class="container">
         <h1 class="text-center">FizzBuzz</h1>
-        
         <form class="form text-center mt-5" method="post" autocomplete="off">
             <input class="form-control mb-3 w-25 mx-auto" type="number" name="user_num" placeholder="Enter number">
             <button class="btn btn-warning" type="submit">Show Result</button>
         </form>
         
         <div class="text-center mt-4">
-            <span class="form-result border p-2 px-3 bg-success text-white rounded w-25 mx-auto"></span>
+            <!-- <span class="form-result border p-2 px-3 bg-success text-white rounded w-25 mx-auto"></span> -->
+      
+            <span><span class="fizzLength">0</span> Fizz: <p class="-fizz"></p></span>
+            <span><span class="buzzLength">0</span> Buzz: <p class="-buzz"></p></span>
+            <span><span class="fizzBuzzLength">0</span> FizzBuzz: <p class="-fizzbuzz"></p></span>
         </div>
     </div>
-    
-    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     <script src="./js/main.js"></script>
 </body>
